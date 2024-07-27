@@ -30,7 +30,7 @@ async function play(client, interaction) {
 
         if (!interaction.member.voice.channelId) {
             const embed = new EmbedBuilder()
-                .setColor('#ff0000')
+                .setColor('#1B6ECB ')
                 .setTitle('Voice Channel Required')
                 .setDescription('❌ You need to be in a voice channel to use this command.');
 
@@ -96,32 +96,32 @@ async function play(client, interaction) {
             new EmbedBuilder()
                 .setColor(config.embedColor)
                 .setAuthor({
-                    name: 'Request Update',
+                    name: '<:1336zeromusic:1113106290332422274> Song has been Started!',
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
-                .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
-                 .setFooter({ text: '🎶 Enjoy your music!'}),
+                .setDescription('**<a:Fire_Cyan:1265787154240376832>Played The Music!**\n**➡️ Please use buttons to control playback**')
+                 .setFooter({ text: '<:1336zeromusic:1113106290332422274> Enjoy your music!'}),
 
             new EmbedBuilder()
                 .setColor(config.embedColor)
                 .setAuthor({
-                    name: 'Request Update',
+                    name: '<:1336zeromusic:1113106290332422274> Song has been Started!',
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
-                .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
-                 .setFooter({ text: '🎶 Enjoy your music!'}),
+                .setDescription('**<a:Fire_Cyan:1265787154240376832>Played The Music!**\n**➡️ Please use buttons to control playback**')
+                 .setFooter({ text: '<:1336zeromusic:1113106290332422274> Enjoy your music!'}),
 
             new EmbedBuilder()
                 .setColor(config.embedColor)
                 .setAuthor({
-                    name: 'Request Update',
+                    name: '<:1336zeromusic:1113106290332422274> Song has been Started!',
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
-                .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
-                .setFooter({ text: '🎶 Enjoy your music!'})
+                .setDescription('**<a:Fire_Cyan:1265787154240376832>Played The Music!**\n**➡️ Please use buttons to control playback**')
+                .setFooter({ text: '<:1336zeromusic:1113106290332422274> Enjoy your music!'})
         ];
 
         const randomIndex = Math.floor(Math.random() * embeds.length);
@@ -140,10 +140,10 @@ async function play(client, interaction) {
 
 module.exports = {
     name: "play",
-    description: "Play a song from a name or link",
+    description: "Play a song from a name or link from youtube",
     permissions: "0x0000000000000800",
     options: [{
-        name: 'name',
+        name: 'song name',
         description: 'Enter song name / link or playlist',
         type: ApplicationCommandOptionType.String,
         required: true
