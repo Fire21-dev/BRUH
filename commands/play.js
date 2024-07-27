@@ -96,32 +96,32 @@ async function play(client, interaction) {
             new EmbedBuilder()
                 .setColor(config.embedColor)
                 .setAuthor({
-                    name: '<:1336zeromusic:1113106290332422274> Song has been Started!',
+                    name: ' Song has been Started!',
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
-                .setDescription('**<a:Fire_Cyan:1265787154240376832>Played The Music!**\n**➡️ Please use buttons to control playback**')
-                 .setFooter({ text: '<:1336zeromusic:1113106290332422274> Enjoy your music!'}),
+                .setDescription('**Played The Music!**\n**➡️ Please use buttons to control playback**')
+                 .setFooter({ text: ' Enjoy your music!'}),
 
             new EmbedBuilder()
                 .setColor(config.embedColor)
                 .setAuthor({
-                    name: '<:1336zeromusic:1113106290332422274> Song has been Started!',
+                    name: 'Song has been Started!',
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
-                .setDescription('**<a:Fire_Cyan:1265787154240376832>Played The Music!**\n**➡️ Please use buttons to control playback**')
-                 .setFooter({ text: '<:1336zeromusic:1113106290332422274> Enjoy your music!'}),
+                .setDescription('**Played The Music!**\n**➡️ Please use buttons to control playback**')
+                 .setFooter({ text: ' Enjoy your music!'}),
 
             new EmbedBuilder()
                 .setColor(config.embedColor)
                 .setAuthor({
-                    name: '<:1336zeromusic:1113106290332422274> Song has been Started!',
+                    name: ' Song has been Started!',
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
-                .setDescription('**<a:Fire_Cyan:1265787154240376832>Played The Music!**\n**➡️ Please use buttons to control playback**')
-                .setFooter({ text: '<:1336zeromusic:1113106290332422274> Enjoy your music!'})
+                .setDescription('**Played The Music!**\n**➡️ Please use buttons to control playback**')
+                .setFooter({ text: ' Enjoy your music!'})
         ];
 
         const randomIndex = Math.floor(Math.random() * embeds.length);
